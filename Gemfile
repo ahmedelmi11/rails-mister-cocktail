@@ -20,6 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker'
 ruby '2.4.3'
 gem 'figaro'
+gem 'cloudinary'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'bootstrap-sass'
