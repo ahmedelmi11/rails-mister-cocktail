@@ -1,0 +1,30 @@
+
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('blue.jpg');>
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h1> Create new cocktail</h1>
+    <p>Very smooth, tasty, delicious</p>
+    <% @cocktails.each do|cocktail| %>
+    <p><%= cocktail.name %></p>
+    <% end %>
+    <%= link_to "Back to list", cocktails_path %>
+    <%= link_to "Create a new cocktail", new_cocktail_path %>
+  </div>
+  <img class="card-user" src="AhmedElmi.png">
+  <a class="card-link" href="#" ></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- list of all the cocktails present -->
+<!-- link to new cocktail -->
